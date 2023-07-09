@@ -1,0 +1,138 @@
+body {
+    background-image: url('bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #DAD0C2;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    height: 100vh;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 600px;
+    height: 650px;
+    border-radius: 30px;
+    color: white;
+    background-color: #A2B29F;
+    opacity: 0.7;
+    font-family: 'Roboto', sans-serif;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    margin: 20px;
+    padding: 20px;
+}
+
+h1 {
+    color: #F9ED69;
+    align-self: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+    margin: 5px;
+}
+
+input {
+    font-family: 'Roboto', sans-serif;
+    padding: 5px;
+    font-size: 17px;
+}
+
+p {
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#addTip {
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #9FE6A0;
+    font-size: 20px;
+}
+
+#btn {
+    background-color: #F9ED69;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;;
+    font-size: 20px;
+}
+
+#tip {
+    font-family: 'Roboto', sans-serif;
+    display: none;
+}
+
+#showTotalAmountToPay {
+    display: flex;
+}
+
+#billSplit, #totalTip, #addTax, #totalAmount {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #7D5A50;
+    background-color: #FCDEC0;
+    color:#393E46;
+}
+
+@media all and (max-width: 800px) {
+    .container {
+        width: 500px;
+    }
+    #billSplit, #totalTip, #addTax, #totalAmount {
+        margin: 10px;
+        padding: 5px;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .container {
+        width: 350px;
+    }
+    h1 {
+    font-size: 30px;
+}
+#billSplit, #totalTip, #addTax, #totalAmount {
+    margin: 10px;
+    padding: 5px;
+}
+.par {
+    font-size: 15px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
